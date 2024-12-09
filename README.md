@@ -10,6 +10,7 @@
 - Kishan Kumar Das  -  8995646
 - Shanntha Kumar Krishna Kumar  -  8936449
 
+https://github.com/bibintomj/pharmacy-sql-fpdf
 
 This project is a web application built using **Node.js**, **Express**, and **EJS**, with integrated database design principles and receipt generation functionality using the **FPDF** library. The system is designed to manage pharmacy operations efficiently by generating professional receipts in PDF format.
 
