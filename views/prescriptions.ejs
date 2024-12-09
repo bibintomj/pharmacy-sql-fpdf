@@ -141,9 +141,9 @@
                         <td><%= prescription.DoctorName %></td>
                         <td><%= prescription.PatientName %></td>
                         <td>
-                            <a href="/prescriptions/edit/<%= prescription.ID %>"
+                            <!-- <a href="/prescriptions/edit/<%= prescription.ID %>"
                                 >Edit</a
-                            >
+                            > -->
                             <a
                                 href="#"
                                 onclick="confirmDelete(<%= prescription.ID %>)"
@@ -171,6 +171,8 @@
                 </tbody>
             </table>
         </main>
+
+        <%- include('./partials/footer') %>
 
         <script>
             let medicationCount = 1; // Start with 1 medication
@@ -219,10 +221,6 @@
                         "add-medication-btn"
                     ).style.display = "inline-block";
                 }
-            }
-
-            function generateBill(id) {
-
             }
 
             function confirmDelete(id) {

@@ -3,6 +3,14 @@
 
 **Project for DSGN8311-24F-Sec2 - Advanced Database Design**  
 
+**Group Name : GLOBAL PHARMACY**
+**MEMBERS** 
+- Bibin Tom Joseph  -  8991987
+- Gihan Edirisinghe Kodikara  -  8946990
+- Kishan Kumar Das  -  8995646
+- Shanntha Kumar Krishna Kumar  -  8936449
+
+
 This project is a web application built using **Node.js**, **Express**, and **EJS**, with integrated database design principles and receipt generation functionality using the **FPDF** library. The system is designed to manage pharmacy operations efficiently by generating professional receipts in PDF format.
 
 ## Features  

@@ -5,5 +5,31 @@
         <li><a href="/doctors" class="<%= activePage === 'doctors' ? 'active' : '' %>">Doctors</a></li>
         <li><a href="/medications" class="<%= activePage === 'medications' ? 'active' : '' %>">Medicines</a></li>
         <li><a href="/prescriptions" class="<%= activePage === 'prescriptions' ? 'active' : '' %>">Prescriptions</a></li>
+        <li id="font-stepper">
+            <button id="increase-font">A+</button>
+            <button id="decrease-font">A-</button>
+        </li>
     </ul>
 </nav>
+
+<script>
+    // JavaScript to handle font size adjustments
+    document.addEventListener("DOMContentLoaded", () => {
+        const body = document.body;
+        const increaseFontButton = document.getElementById("increase-font");
+        const decreaseFontButton = document.getElementById("decrease-font");
+
+        // Initial font size
+        let fontSize = 100;
+
+        increaseFontButton.addEventListener("click", () => {
+            fontSize += 10; // Increase font size by 10%
+            body.style.fontSize = `${fontSize}%`;
+        });
+
+        decreaseFontButton.addEventListener("click", () => {
+            fontSize = Math.max(50, fontSize - 10); // Decrease font size but not below 50%
+            body.style.fontSize = `${fontSize}%`;
+        });
+    });
+</script>

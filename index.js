@@ -1,3 +1,10 @@
+// **Group Name : GLOBAL PHARMACY**
+// **MEMBERS** 
+// - Bibin Tom Joseph  -  8991987
+// - Gihan Edirisinghe Kodikara  -  8946990
+// - Kishan Kumar Das  -  8995646
+// - Shanntha Kumar Krishna Kumar  -  8936449
+
 const express = require('express');
 const pharmacyRoutes = require('./routes/pharmacyRoutes');
 
